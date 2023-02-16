@@ -154,7 +154,7 @@
             this.AddEmployeeBtn.Name = "AddEmployeeBtn";
             this.AddEmployeeBtn.Size = new System.Drawing.Size(174, 71);
             this.AddEmployeeBtn.TabIndex = 11;
-            this.AddEmployeeBtn.Text = "Add Employee";
+            this.AddEmployeeBtn.Text = "Add employee";
             this.AddEmployeeBtn.UseVisualStyleBackColor = false;
             this.AddEmployeeBtn.Click += new System.EventHandler(this.AddEmployeeBtn_Click);
             // 
@@ -204,6 +204,7 @@
             this.Controls.Add(this.Readrichtxtbox1);
             this.Name = "Employeedatemanager";
             this.Text = "Employee data manager";
+            this.Load += new System.EventHandler(this.Employeedatemanager_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

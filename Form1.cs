@@ -38,7 +38,7 @@ namespace Programming_project
             sw.WriteLine(label3.Text + ";" + GenderCb.Text);
             sw.WriteLine(label4.Text + ";" + AddressTb.Text);
             sw.Close();
-            MessageBox.Show("Employee addes sucessfully");
+            MessageBox.Show("Employee added sucessfully");
         }
 
         private void SelectFileBtn_Click(object sender, EventArgs e)
@@ -64,6 +64,11 @@ namespace Programming_project
 
             else MessageBox.Show("Incorrect location entered, Please enter a valid file location");
             return;
+        }
+
+        private void Employeedatemanager_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
